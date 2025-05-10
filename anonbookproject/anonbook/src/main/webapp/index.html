@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Anonbook</title></head>
+<body>
+<h1>All Posts</h1>
+<form method="post" action="/post" enctype="multipart/form-data">
+    <textarea name="text" required></textarea>
+    <input type="file" name="image" accept=".jpg"/>
+    <button type="submit">Post</button>
+</form>
+<div id="posts"></div>
+</body>
+</html>

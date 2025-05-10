@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>View Post</title></head>
+<body>
+<h1>Post View</h1>
+<div id="post"></div>
+<form method="post" action="/comment">
+    <textarea name="text" required></textarea>
+    <input type="hidden" name="postId" value="{{postId}}"/>
+    <button type="submit">Comment</button>
+</form>
+<div id="comments"></div>
+</body>
+</html>
